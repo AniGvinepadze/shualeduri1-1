@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --first-buttoncolor: #e8eff2;
+  --main-textcolor: #162542;
+  --secondary-textcolor: #7b8bad;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Barlow", sans-serif;
+  color: var(--main-textcolor);
+}
+.main-conatiner {
+  width: 1440px;
+  height: 1870px;
+}
+header {
+  width: 1100px;
+  height: 58px;
+  margin: 55px 165px 83px 165px;
+}
+header img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0px 0px 10px;
+}
+header button {
+  width: 175px;
+  height: 58px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 5px solid #e8eff2;
+  border-radius: 8px;
+  background-color: #e8eff2;
+  margin: -50px 0px 165px 800px;
+}
+header button:hover {
+  background-color: #162542;
+  cursor: pointer;
+  color: #ffffff;
+}
+.GroupOne {
+  width: 445px;
+  height: 312px;
+  margin: 70px 0px 0px 165px;
+}
+.GroupOne h2 {
+  font-weight: 900;
+  font-size: 56px;
+}
+.GroupOne p {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--secondary-textcolor);
+  margin: 24px 0px 40px 0px;
+}
+.GroupOne button {
+  width: 175px;
+  height: 58px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 5px solid #f16718;
+  border-radius: 8px;
+  background-color: #f16718;
+  color: #ffffff;
+}
+.GroupOne button:hover {
+  background-color: #ff9b62;
+  border: #ff9b62;
+  cursor: pointer;
+}
+.GroupOne h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+  margin: -40px 0px 0px 200px;
+}
+
+.GroupOneImg .imgone {
+  width: 540px;
+  height: 480px;
+  margin: -300px 0px 0px 730px;
+}
+.GroupOneImg .imgtwo {
+  position: absolute;
+  left: 1300px;
+  top: 220px;
+}
+.GroupTwo {
+  width: 255px;
+  height: 265px;
+ position: relative;
+ left: 1020px;
+ top: 145px;
+}
+.GroupTwo h2 {
+  font-weight: 900;
+  font-size: 32px;
+}
+.GroupTwo p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 27px;
+  color: var(--secondary-textcolor);
+}
+.GroupTwoImg {
+  position: relative;
+  top: -200px;
+}
+.GroupTwoImg .one {
+  margin-right: 30px;
+}
+.GroupTwoImg .three {
+  position: absolute;
+  left: 450px;
+}
+.boxone {
+  width: 255px;
+  height: 323px;
+  margin: 168px 0px 193px 165px;
+}
+
+.boxone h4 {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 48px 0px 24px 0px;
+}
+.boxone p {
+  font-weight: 500px;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+}
+.boxtwo {
+  width: 255px;
+  height: 323px;
+  margin: -520px 0px 193px 480px;
+}
+.boxtwo h4 {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 48px 0px 24px 0px;
+}
+.boxtwo p {
+  font-weight: 500px;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+}
+.boxthree {
+  width: 255px;
+  height: 323px;
+  margin: -520px 0px 193px 800px;
+}
+.boxthree h4 {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 48px 0px 24px 0px;
+}
+.boxthree p {
+  font-weight: 500px;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+}
+.boxfour {
+  width: 255px;
+  height: 323px;
+  margin: -520px 0px 193px 1100px;
+}
+.boxfour h4 {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 48px 0px 24px 0px;
+}
+.boxfour p {
+  font-weight: 500px;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+}
+
+.boxfive p {
+  width: 500px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+  margin: 0px 613px 47px 555px;
+}
+.boxfive span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secondary-textcolor);
+}
+
+@media screen and (max-width: 768px) {
+  .main-conatiner {
+    width: 768px;
+    height: 2128;
+  }
+  header {
+    width: 689px;
+    height: 58px;
+    margin: 40px 0px 0px 39px;
+  }
+  .GroupOne {
+    width: 400px;
+    height: 290px;
+    margin: 122px 0px 0px 39px;
+  }
+  .GroupOne h2 {
+    font-size: 60px;
+  }
+  .GroupOne p {
+    font-size: 24px;
+  }
+  .GroupOne button {
+    width: 190px;
+    height: 60px;
+    font-size: 19px;
+  }
+  .GroupOne h5 {
+    font-size: 20px;
+  }
+  .GroupOneImg .imgone {
+    width: 478px;
+    height: 425px;
+    position: relative;
+    left: -150px;
+    top: -30px;
+  }
+  .GroupOneImg .imgtwo {
+    display: none;
+  }
+  .GroupTwoImg .one {
+    display: none;
+  }
+  .GroupTwoImg .two {
+    width: 214px;
+    height: 320px;
+    position: relative;
+    left: 39px;
+  }
+  .GroupTwoImg .three {
+    width: 445px;
+    height: 320px;
+    position: absolute;
+    left: 300px;
+  }
+  .GroupTwo h2 {
+    font-size: 35px;
+    position: relative;
+    top: 280px;
+    left: -970px;
+  }
+  .GroupTwo P {
+    width: 398px;
+    height: 78px;
+    font-size: 19px;
+    position: relative;
+    top: 150px;
+    left: -670px;
+  }
+  .boxone {
+    width: 339px;
+    height: 289px;
+    position: relative;
+    top: 130px;
+    left: -90px;
+  }
+  .boxone h4 {
+    width: 200px;
+  }
+  .boxone p {
+    width: 270px;
+  }
+  .boxtwo {
+    width: 339px;
+    height: 289px;
+    position: relative;
+    top: 160px;
+    left: -50px;
+  }
+  .boxtwo h4 {
+    width: 270px;
+  }
+  .boxtwo p {
+    width: 330px;
+  }
+
+  .boxthree {
+    width: 339px;
+    height: 289px;
+    position: relative;
+    top: 670px;
+    left: -700px;
+  }
+  .boxthree h4 {
+    width: 270px;
+  }
+  .boxthree p {
+    width: 310px;
+  }
+  .boxfour {
+    width: 339px;
+    height: 289px;
+    position: relative;
+    top: 700px;
+    left: -590px;
+  }
+  .boxfour h4 {
+    width: 270px;
+  }
+  .boxfour p {
+    width: 310px;
+  }
+  .boxfive {
+    position: relative;
+    top: 700px;
+    left: -250px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-conatiner {
+    width: 375px;
+    height: 3007px;
+  }
+  header {
+    margin: 23px 24px 64px 24px;
+  }
+  header img {
+    width: 60px;
+    height: 60px;
+  }
+  header button {
+    width: 221px;
+    height: 80px;
+    font-size: 22px;
+    margin-left: 200px;
+  }
+  .GroupTwo {
+    width: 327px;
+    height: 286px;
+    margin: 0px 0px 0px 100px;
+  }
+  .GroupOneImg {
+    width: 372px;
+    height: 331px;
+    margin: 500px 0px 0px -495px;
+  }
+  .GroupTwoImg .two {
+    width: 129px;
+    height: 193px;
+    position: relative;
+    left: 0px;
+    top: -150px;
+  }
+  .GroupTwoImg .three {
+    width: 225px;
+    height: 193px;
+    position: relative;
+    left: 30px;
+    top: -150px;
+  }
+  .GroupTwo h2 {
+    width: 255px;
+    height: 108px;
+    text-align: center;
+  }
+  .GroupTwo p{
+    width: 327px;
+    height: 104px;
+    text-align: center;
+    margin: 200px 0px 0px -320px;
+  }
+  .boxone {
+    width: 360px;
+    height: 389px;
+    position: relative;
+    top: 500px;
+    left: 0px;
+    text-align: center;
+  }
+  .boxone img {
+    width: 65px;
+    height: 65px;
+    margin-left: -160px;
+  }
+
+  .boxone p {
+    width: 360px;
+    font-size: 20px;
+    margin-left: -70px;
+  }
+  .boxtwo {
+    width: 360px;
+    height: 389px;
+    position: relative;
+    top: 900px;
+    left: -315px;
+    text-align: center;
+  }
+  .boxtwo img {
+    width: 65px;
+    height: 65px;
+    margin-left: -160px;
+  }
+  .boxtwo h4 {
+    margin-left: -20px;
+  }
+  .boxtwo p {
+    width: 360px;
+    font-size: 20px;
+    margin-left: -50px;
+  }
+  .boxtwo img {
+    width: 65px;
+    height: 65px;
+    margin-left: -160px;
+  }
+
+  .boxthree {
+    width: 360px;
+    height: 389px;
+    font-size: 20px;
+    position: relative;
+    top:1300px;
+    left: -610px;
+    text-align: center;
+  }
+.boxthree h4{
+     margin-left: -50px ;
+}
+  .boxthree p {
+    width: 360px;
+    font-size: 20px;
+    margin-left: -70px;
+  }
+  .boxthree img{
+  margin-left: -220px;
+  }
+  .boxfour {
+    width: 360px;
+    height: 389px;
+    position: relative;
+    top: 1700px;
+    left: -950px;
+    text-align: center;
+  }
+  .boxfour img{
+    margin-left: -100px;
+  }
+  .boxfour p{
+    margin-left: -40px;
+    width: 360px;
+  }
+  .boxfive {
+
+    margin: 1000px 0px 1000px -170px ;
+  }
+}
+.boxfive p{
+    font-size: 20px;
+}
+.boxfive span{
+    font-size: 20px;
+}
